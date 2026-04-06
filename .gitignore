@@ -1,3 +1,14 @@
 # node_modules/
 /target/
 *.log
+
+# Ignore background files (keep folder structure)
+public/assets/backgrounds/*
+!public/assets/backgrounds/.gitkeep
+
+# Ignore music/song files (keep folder structure)
+server/music/*
+!server/music/.gitkeep
+
+# Database
+*.sqlite
